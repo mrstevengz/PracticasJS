@@ -47,3 +47,25 @@ for (let letra of nameString) {
 }
 console.log(`El numero de vocales en el string "${nameString}" son ${contador}`)
 
+//6
+
+let productArray = [1, 2, 3, 4, 5]
+let mult = 1
+
+for (let num of productArray) {
+    console.log(num)
+    mult *= num
+} console.log(mult)
+
+//7
+
+for (let i = 1; i<=12; i++) {
+    console.log(5*i)
+}
+
+//8
+
+let stringText = "Hola, mundo"
+
+stringReversed = stringText.split('').reverse('').join('')
+console.log(stringReversed)
