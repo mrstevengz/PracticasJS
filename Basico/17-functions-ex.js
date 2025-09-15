@@ -1,4 +1,3 @@
-/*
 
 //1 Funcion de dos numeros que devuelva la suma
 
@@ -34,7 +33,6 @@ function checkVowels (string) {
 
 stringEjemplo = "Hola Mundo"
 console.log(checkVowels(stringEjemplo))
-*/
 
 // 4 Funcion que reciba un array de strings y devuelva el nuevo array con las strings en minuscula
 
@@ -120,6 +118,21 @@ function reverseArray(array) {
 
 array = ["Hola", "Mundo"]
 console.log(reverseArray(array))
+
+//10 Calcule el factorial de un numero dado
+
+function factorial(numero) {
+    let result = 1;
+    for (let i = 1; i <= numero; i++) {
+        result *= i;
+    }
+    return result;
+}
+
+let numero = 3
+console.log(factorial(numero));
+
+
 
 
 
