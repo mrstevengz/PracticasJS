@@ -42,6 +42,8 @@ objeto.ocupacion = {
 console.log(objeto.ocupacion)
 
 // 9. Comprobar si dos objetos son iguales
+// 10. Comprobar si dos propiedades diferentes son iguales.
 objeto.ocupacion.job == objeto.ocupacion.job_exp ? console.log("Esta persona tiene trabajo") : console.log("Esta persona no tiene trabajo")
 
-// 10. Comprobar si dos propiedades diferentes son iguales.
+
+
