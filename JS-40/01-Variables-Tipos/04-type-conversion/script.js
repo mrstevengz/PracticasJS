@@ -13,7 +13,7 @@ let amount = 0;
 //amount = parseFloat(amount);
 
 //Convertir un numero a boolean
-amount = Boolean(amount);
+//amount = Boolean(amount);
 
 console.log(amount, typeof amount);
 
