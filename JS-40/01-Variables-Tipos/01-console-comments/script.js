@@ -28,3 +28,8 @@ console.groupEnd('simple');
 const styles = 'padding: 10px; background-color: red;'
 
 console.log('%cHola mundo', styles);
+
+//Shortcuts
+
+// CTRL + / => comentar linea o bloque
+// CTRL + D => seleccionar palabra
