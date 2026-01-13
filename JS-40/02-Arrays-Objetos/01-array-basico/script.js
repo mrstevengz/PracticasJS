@@ -32,7 +32,9 @@ z= arr.indexOf(95)
 
 z= arr.slice(2,3)
 
-z= arr.splice(1,1)
+// z= arr.splice(1,1)
+
+
 
 console.log(arr);
 console.log(z);
