@@ -23,8 +23,7 @@ x = Intl.DateTimeFormat('en-US').format(d);
 
 x= date.toLocaleDateString('default', {month: 'short'})
 
-
-
-
 console.log(x);
+
+
 
