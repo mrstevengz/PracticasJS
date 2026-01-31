@@ -18,6 +18,7 @@
   --secondary-color: #d1d1d1;
   --light-pink-color: #f5ebe0;
   --surface-border: 2px solid var(--primary-color);
+  --surface-border2: 2px solid var(--light-pink-color);
   --panel-padding: clamp(16px, 3vw, 32px);
   --content-width: min(900px, 92vw);
   --radius: 16px;
