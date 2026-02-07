@@ -43,3 +43,17 @@ logo.addEventListener("dblclick", ondblClick);
 
 // addEventListener('dragstart', function)
 // addEventListener('drag', function)
+
+//Events
+// addEventListener("click", function (e) {
+//   console.log(e);
+// });
+
+//Keyboard Events
+
+const itemInput = document.getElementById("password");
+
+const onKeyPress = (e) => {
+  console.log("keypress");
+};
+itemInput.addEventListener("keydown", onKeyPress);
