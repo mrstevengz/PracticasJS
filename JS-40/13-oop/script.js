@@ -60,9 +60,6 @@ function Person(firstName, lastName) {
 class Wallet {
   #balance = 0;
   #transactions = [];
-  constructor() {
-    this.#balance = 0;
-  }
 
   deposit(amount) {
     this.#balance += amount;
@@ -81,3 +78,10 @@ const wallet = new Wallet();
 wallet.deposit(300);
 wallet.withdraw(50);
 console.log(wallet.balance);
+
+const rectObj = {
+  name: "Rectangle 1",
+  width: 10,
+};
+
+Object.seal(rectObj);
