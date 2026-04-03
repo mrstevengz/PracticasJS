@@ -1,6 +1,6 @@
 const message = {
   id: 1,
-  text: "Hola mundoi",
+  text: "Hola mundo",
 };
 
 export default message;

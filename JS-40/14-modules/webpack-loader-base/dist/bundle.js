@@ -16,7 +16,7 @@
   \**********************/
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _message__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./message */ \"./src/message.js\");\n\r\nconsole.log(_message__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\r\n\n\n//# sourceURL=webpack://playground/./src/index.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _message__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./message */ \"./src/message.js\");\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\");\n\n\nconsole.log(_message__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://playground/./src/index.js?\n}");
 
 /***/ },
 
@@ -26,7 +26,17 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _me
   \************************/
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst message = {\r\n  id: 1,\r\n  text: \"Hola mundoi\",\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (message);\r\n\n\n//# sourceURL=webpack://playground/./src/message.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nvar message = {\n  id: 1,\n  text: \"Hola mundo\"\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (message);\n\n//# sourceURL=webpack://playground/./src/message.js?\n}");
+
+/***/ },
+
+/***/ "./src/css/style.css"
+/*!***************************!*\
+  !*** ./src/css/style.css ***!
+  \***************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://playground/./src/css/style.css?\n}");
 
 /***/ }
 
